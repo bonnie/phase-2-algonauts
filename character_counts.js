@@ -1,4 +1,5 @@
-// https://www.reddit.com/r/dailyprogrammer/comments/2mkh5g/weekly_17_mini_challenges/
+// challenge: https://www.reddit.com/r/dailyprogrammer/comments/2mkh5g/weekly_17_mini_challenges/
+// discussion recording: https://www.youtube.com/watch?v=b539R9qcq6Q&list=PLcSbxZVkmW_gSDpl8jLF3Jb1juUJs9Cxq
 // 2017-11-06
 
 const brittanyCount = (string) => {

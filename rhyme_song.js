@@ -1,4 +1,5 @@
-// https://www.reddit.com/r/dailyprogrammer/comments/338p28/20150420_challenge_211_easy_the_name_game/
+// challenge: https://www.reddit.com/r/dailyprogrammer/comments/338p28/20150420_challenge_211_easy_the_name_game/
+// discussion recording: https://www.youtube.com/watch?v=BUYgSH2mEnM&list=PLcSbxZVkmW_gSDpl8jLF3Jb1juUJs9Cxq&index=2
 // 2017-11-02
 
 // cases to consider:

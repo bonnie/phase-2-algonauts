@@ -1,4 +1,5 @@
 // https://www.reddit.com/r/dailyprogrammer/comments/3d4fwj/20150713_challenge_223_easy_garland_words/
+// discussion recording: https://www.youtube.com/watch?v=IfiSd5o1XgY&index=3&list=PLcSbxZVkmW_gSDpl8jLF3Jb1juUJs9Cxq
 // 2017-11-01
 
 // take original string

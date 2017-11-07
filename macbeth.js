@@ -1,4 +1,5 @@
-// https://www.reddit.com/r/dailyprogrammer/comments/2xoxum/20150302_challenge_204_easy_remembering_your_lines/
+// challenge: https://www.reddit.com/r/dailyprogrammer/comments/2xoxum/20150302_challenge_204_easy_remembering_your_lines/
+// discussion recording: no recording T.T
 // 2017-11-07
 
 const fs = require('fs')
