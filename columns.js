@@ -1,7 +1,5 @@
-// use split and join
-// array -> string?
-
-// columns: inner width, divide by column number
+// challenge: https://www.reddit.com/r/dailyprogrammer/comments/2hssx6/29092014_challenge_182_easy_the_column_conundrum/
+// 2017-11-13
 
 const fs = require('fs')
 
