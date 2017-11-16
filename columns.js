@@ -13,18 +13,25 @@ const newspaperfy = (inputFile) => {
   // using regex :D create ONE column of specified width (array of strings)
   const lineLengthRE = new RegExp(`.{${colWidth}}`, 'g')
   const singleColumn = actualText.match(lineLengthRE)
-  singleColumn.push(actualText.slice(0 - actualText % lineLengthRE))
+  singleColumn.push(actualText.slice(0 - (actualText.length % colWidth)))
   const linesPerColumn = Math.ceil(singleColumn.length / numCols)
   let output = ''
   // assemble the text
   for (let i = 0; i < linesPerColumn; i += 1) {
     // joining the text left as an exercise for the reader
-    output = singleColumn[i]
+    for (let j = 0; j < numCols; j += 1) {
+      nextIndex = i + j * linesPerColumn
+      if (nextIndex <= singleColumn.length -1) {
+        output += `${singleColumn[nextIndex]}${' '.repeat(spaceWidth)}`
+      }
+    }
+    output += '\n'
   }
+  return output
 }
 
 // using regex :D create ONE column of specified width (array of strings)
 // using math, break it up into required number of columns (many arrays of strings)
 // pull from each column array in turn
 
-newspaperfy(textFile)
+console.log(newspaperfy(textFile))
